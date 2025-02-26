@@ -1,0 +1,33 @@
+.notFound_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.notFound_icon {
+    width: 300px;
+}
+
+.backIcon_content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+    right: 0;
+}
+
+.backIcon_content:hover {
+    right: 15px;
+}
+
+.back_icon {
+    width: 100px;
+}
