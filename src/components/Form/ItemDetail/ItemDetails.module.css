@@ -1,0 +1,46 @@
+.item_content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+.backIcon_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100px;
+    left: 20%;
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+}
+
+.back_icon {
+    width: 100px;
+}
+
+.backIcon_content:hover {
+    left: 19%;
+}
+
+
+@media (max-width: 827px) {
+    .item_content {
+        flex-direction: column-reverse;
+    }
+
+    .backIcon_content {
+        position: relative;
+        width: 100%;
+        left: 0;
+    }   
+
+    .backIcon_content:hover {
+        left: 0;
+    }
+}

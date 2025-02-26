@@ -1,0 +1,25 @@
+.items_content {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 3rem;
+    gap: 3rem;
+    text-decoration: none;
+}
+
+.item_content {
+    margin-bottom: 0.5rem;
+}
+
+.item_btn {
+    border: 0;
+    background: none;
+}
+
+@media (max-width: 827px) {
+    .items_content {
+        align-items: center;
+        padding: 2.375rem;
+        gap: 2rem;
+    }     
+}

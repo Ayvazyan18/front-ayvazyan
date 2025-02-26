@@ -1,0 +1,38 @@
+.subMenu_content {
+    width: 175px;
+    border: 1px solid #E9E9E9;
+    position: absolute;
+    padding: 1.25rem;
+    margin-top: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 0.813rem;
+}
+
+.subMenu_content div {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E9E9E9;
+    padding-bottom: 8px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.subMenu_content div:last-child {
+    border: 0;
+}
+
+.subMenu_content div:hover {
+    color: #969696;
+    padding-left: 10px;
+}
+
+
+@media (max-width: 827px) {
+    .subMenu_content {
+        margin-top: 0;
+        z-index: 1000;
+    }
+}
